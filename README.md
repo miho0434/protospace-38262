@@ -1,5 +1,14 @@
-## usersテーブル
+###  　投稿画面
+[![Image from Gyazo](https://i.gyazo.com/62df2828dbc5e1e00ffb161a161e6d7f.gif)](https://gyazo.com/62df2828dbc5e1e00ffb161a161e6d7f)
 
+###  　投稿編集
+[![Image from Gyazo](https://i.gyazo.com/d5348953bf4487609a6faebd7a60810c.gif)](https://gyazo.com/d5348953bf4487609a6faebd7a60810c)
+
+###  　コメント機能
+[![Image from Gyazo](https://i.gyazo.com/6fa48ebac385ea55e077f643a225ec31.gif)](https://gyazo.com/6fa48ebac385ea55e077f643a225ec31)
+
+
+## usersテーブル
 | Column             | Type       | Options                |
 | ----------------   | --------   | ------------           |
 | email              | string     | null: false ユニーク制約 |
@@ -12,7 +21,6 @@
 ### Asociation
 - has_many :prototypes
 - has_many :comments
-
 
 
 
